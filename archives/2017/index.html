@@ -59,9 +59,9 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags:[1,2,3]">Swift</a></li>
+				<li><a href="/tags:["swift"]">Swift</a></li>
 	        
-				<li><a href="/tags:[4,5,6]">iOS</a></li>
+				<li><a href="/tags:["iOS"]">iOS</a></li>
 	        
 			</ul>
 		</nav>
@@ -141,9 +141,9 @@
 				
 					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags:[1,2,3]">Swift</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags:["swift"]">Swift</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags:[4,5,6]">iOS</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags:["iOS"]">iOS</a></li>
 		        
 				</ul>
 			</nav>
@@ -188,7 +188,29 @@
 
         <div class="article-info info-on-right">
           
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">swift</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
           
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/Swift/" class="article-tag-list-link color1">Swift</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
         </div>
         <div class="clearfix"></div>
@@ -287,6 +309,10 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">swift</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
