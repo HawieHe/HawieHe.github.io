@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[test2]]></title>
+      <url>%2F2017%2F03%2F28%2Ftest2%2F</url>
+      <content type="text"><![CDATA[我是一个粉刷匠]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[test]]></title>
+      <url>%2F2017%2F03%2F28%2Ftest%2F</url>
+      <content type="text"><![CDATA[测试一 这是一个测试1 这是一个测试1 这是一个测试1 123var a = 1var b = a + 1print('a + b = \(a+b)')]]></content>
+    </entry>
+
+    
+  
+  
+</search>
